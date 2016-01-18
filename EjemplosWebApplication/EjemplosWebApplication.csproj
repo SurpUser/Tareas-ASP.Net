@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76808437-2E1E-4A07-8F03-91E61132BC1F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EjemplosWebApplication</RootNamespace>
+    <AssemblyName>EjemplosWebApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=15.1.4.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AjaxControlToolKitWebForm.aspx" />
+    <Content Include="AjaxWebForm.aspx" />
+    <Content Include="BootStrapWebForm.aspx" />
+    <Content Include="CookieWebForm.aspx" />
+    <Content Include="CSSWebForm.aspx" />
+    <Content Include="CSS\Style.css" />
+    <Content Include="CSS\stylesheet.css" />
+    <Content Include="JavaScriptWebForm.aspx" />
+    <Content Include="JQueryWebForm.aspx" />
+    <Content Include="knockoutWebForm.aspx" />
+    <Content Include="MasterPageWebForm.aspx" />
+    <Content Include="Script\knockout.js" />
+    <Content Include="QueryStringWebForm.aspx" />
+    <Content Include="Script\scriptJQuery.js" />
+    <Content Include="SessionWebForm.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AjaxControlToolKitWebForm.aspx.cs">
+      <DependentUpon>AjaxControlToolKitWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AjaxControlToolKitWebForm.aspx.designer.cs">
+      <DependentUpon>AjaxControlToolKitWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AjaxWebForm.aspx.cs">
+      <DependentUpon>AjaxWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AjaxWebForm.aspx.designer.cs">
+      <DependentUpon>AjaxWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BootStrapWebForm.aspx.cs">
+      <DependentUpon>BootStrapWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BootStrapWebForm.aspx.designer.cs">
+      <DependentUpon>BootStrapWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CookieWebForm.aspx.cs">
+      <DependentUpon>CookieWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CookieWebForm.aspx.designer.cs">
+      <DependentUpon>CookieWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CSSWebForm.aspx.cs">
+      <DependentUpon>CSSWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CSSWebForm.aspx.designer.cs">
+      <DependentUpon>CSSWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JavaScriptWebForm.aspx.cs">
+      <DependentUpon>JavaScriptWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JavaScriptWebForm.aspx.designer.cs">
+      <DependentUpon>JavaScriptWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JQueryWebForm.aspx.cs">
+      <DependentUpon>JQueryWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JQueryWebForm.aspx.designer.cs">
+      <DependentUpon>JQueryWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="knockoutWebForm.aspx.cs">
+      <DependentUpon>knockoutWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="knockoutWebForm.aspx.designer.cs">
+      <DependentUpon>knockoutWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPagesSite.Master.cs">
+      <DependentUpon>MasterPagesSite.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPagesSite.Master.designer.cs">
+      <DependentUpon>MasterPagesSite.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPageWebForm.aspx.cs">
+      <DependentUpon>MasterPageWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPageWebForm.aspx.designer.cs">
+      <DependentUpon>MasterPageWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryStringWebForm.aspx.cs">
+      <DependentUpon>QueryStringWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="QueryStringWebForm.aspx.designer.cs">
+      <DependentUpon>QueryStringWebForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SessionWebForm.aspx.cs">
+      <DependentUpon>SessionWebForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SessionWebForm.aspx.designer.cs">
+      <DependentUpon>SessionWebForm.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPagesSite.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51382</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51382/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

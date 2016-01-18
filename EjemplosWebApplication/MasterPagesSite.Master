@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPagesSite.master.cs" Inherits="EjemplosWebApplication.MasterPagesSite" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+    <center><h1>FC Programs</h1></center>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <center>
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div> 
+                <h1>Developer by Francis Castillo</h1>
+            </div>
+        </center>
+    </form>
+</body>
+</html>

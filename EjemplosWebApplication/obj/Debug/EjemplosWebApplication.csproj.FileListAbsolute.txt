@@ -1,0 +1,7 @@
+c:\users\root\documents\visual studio 2015\Projects\EjemplosWebApplication\EjemplosWebApplication\bin\EjemplosWebApplication.dll.config
+c:\users\root\documents\visual studio 2015\Projects\EjemplosWebApplication\EjemplosWebApplication\bin\EjemplosWebApplication.dll
+c:\users\root\documents\visual studio 2015\Projects\EjemplosWebApplication\EjemplosWebApplication\bin\EjemplosWebApplication.pdb
+c:\users\root\documents\visual studio 2015\Projects\EjemplosWebApplication\EjemplosWebApplication\obj\Debug\EjemplosWebApplication.dll
+c:\users\root\documents\visual studio 2015\Projects\EjemplosWebApplication\EjemplosWebApplication\obj\Debug\EjemplosWebApplication.pdb
+c:\users\root\documents\visual studio 2015\Projects\EjemplosWebApplication\EjemplosWebApplication\obj\Debug\EjemplosWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\Root\documents\visual studio 2015\Projects\EjemplosWebApplication\EjemplosWebApplication\bin\AjaxControlToolkit.dll
